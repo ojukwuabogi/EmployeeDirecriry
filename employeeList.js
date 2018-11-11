@@ -1,7 +1,3 @@
-employeeList.js
-
- 
-
 const employeeList = [{
 
   name: 'Jan',
@@ -83,9 +79,3 @@ const employeeList = [{
 }
 
 ];
-
- 
-
- 
-
- 

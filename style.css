@@ -1,38 +1,44 @@
  
+Style.css
 
+/* html {
 
-@media (min-width: 768px) {
+    height: 100%;
 
-    .sidebar-nav .navbar .navbar-collapse {
+}
 
-      padding: 0;
+body {
 
-      max-height: none;
+    height: 100%;
 
-    }
+    display:flex;
 
-    .sidebar-nav .navbar ul {
+} */
 
-      float: none;
+#sidebar{
 
-      display: block;
+ 
 
-    }
+    width: 200px;
 
-    .sidebar-nav .navbar li {
+    background-color: aquamarine;
 
-      float: none;
+}
 
-      display: block;
+/* #display{
 
-    }
+    display:flex;
 
-    .sidebar-nav .navbar li a {
+    flex-direction:column;
 
-      padding-top: 12px;
+    padding: 100px;
 
-      padding-bottom: 12px;
+} */
 
-    }
+ 
 
-  }
+.card{
+
+    background-color: pink;
+
+}

@@ -1,6 +1,4 @@
- 
-
-const $ = function (selector) {
+ const $ = function (selector) {
 
   const nodeList = document.querySelectorAll(selector);
 
@@ -130,6 +128,28 @@ const $ = function (selector) {
 
  
 
+  const show = function () {
+
+    for (let i = 0; i < nodeList.length; i++) {
+
+      nodeList[i].style.display = '';
+
+    }
+
+  }
+
+  const hide = function () {
+
+    for (let i = 0; i < nodeList.length; i++) {
+
+      nodeList[i].style.display = 'none';
+
+    }
+
+  }
+
+ 
+
   return {
 
     text: text,
@@ -150,32 +170,12 @@ const $ = function (selector) {
 
     on: on,
 
-    val: val
+    val: val,
+
+    show: show,
+
+    hide:hide
 
   };
 
 }
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Peter O. Abogi
-
-Staff Network Operations Engineer
-
-GE Digital
-
- 
-
-T +1 678 435 2182
-
-Peter.abogi@.ge.com
-
- 
